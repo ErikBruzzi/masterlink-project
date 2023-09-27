@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+  
+header {
+    border-bottom: solid 2px;
+    border-color: rgb(189, 83, 12);
+    padding-bottom: 5px ;
+}
+  
+.imglogo {
+    margin-left: 10%;
+    margin-top: 5px;
+}
+  
+.cabecalho div button{
+    display: flex;
+    margin: 0px 22px 0px 22px;
+    color: rgb(63, 60, 60);
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+    background-color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 15.5px;
+}
+
+.menu div button:hover{
+    background-color: rgb(189, 83, 12);
+    cursor: pointer;
+    color: white;
+ }
+  
+.menu {
+    display: flex;
+    margin-left: 35%;
+    position: absolute;
+    margin-top: -4.7%;
+}
+
+  /* carrosel */
+  
+.carrossel {
+    overflow: hidden;
+}
+  
+.container {
+    display: flex;
+    transition: 0.7s ease-in-out;
+    transform: translateX(0);
+}
+  
+/* carrosel */
+
+.h3texto1 h3 {
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 22px;
+}
+
+.planos {
+    display: flex;
+}
+
+.contedor {
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 50px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+.contedor h1 {
+    font-size: 40px;
+}
+
+.price {
+    font-size: 25px;
+    color: rgb(6, 29, 78);
+}
+
+.contedor button {
+    background-color: rgb(189, 83, 12);
+    border: solid 2px black;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: 'Kanit', sans-serif;
+    cursor: pointer;
+    font-size: 20px;
+    color:white;
+}
+
+.textodet {
+    font-family: 'Kanit', sans-serif;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.borderdet {
+    display: flex;
+    margin: 15px 15px 0px 15px;
+    border: solid black 2px;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.det {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    padding: 0px 40px 0px 40px;
+    text-decoration: none;
+}
+
+.det strong {
+    font-size: 17px;
+}
+
+footer {
+    margin: 30px 0px 0px 0px;
+    padding: 30px;
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
+
+.background-color-footer div p {
+    background-color: rgb(61, 61, 61);
+} 
+
+.background-color-footer div {
+    background-color: rgb(61, 61, 61);
+}
