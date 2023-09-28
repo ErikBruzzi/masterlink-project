@@ -221,7 +221,7 @@ footer {
       
     .cabecalho div button{
         margin: 0;
-        font-size: 9px;
+        font-size: 7px;
     }
     
     .menu div button:hover{
@@ -270,7 +270,7 @@ footer {
     .planos {
         display: block;
         justify-content: center;
-        margin: 0px 40px 0px 40px;
+        margin: 0px 40px 0px 30px;
     }
     
     .contedor {
