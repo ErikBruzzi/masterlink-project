@@ -10,7 +10,7 @@ function slider() {
     contador = 0;
   }
 
-  box.style.transform = `translateX(${-contador * 1345}px)`;
+  box.style.transform = `translateX(${-contador * 50}%)`;
 }
 
 setInterval(slider, 6000);
